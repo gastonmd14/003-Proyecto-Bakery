@@ -2,4 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.df {display: flex;}
+.fww {flex-wrap: wrap;}
+.fdc {flex-direction: column;}
+.fdr {flex-direction: row;}
+.fg1 {flex-grow: 1;}
+.fg2 {flex-grow: 2;}
+.jcse {justify-content: space-evenly;}
+.p20 {padding: 20px;}
+
+#cabecera {
+    
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.busqueda {
+   flex-grow: 2;
+}
