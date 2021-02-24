@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'RocknRoll One', sans-serif;
 }
 
 ul {
@@ -16,16 +17,39 @@ ul {
 .fg1 {flex-grow: 1;}
 .fg2 {flex-grow: 2;}
 .jcse {justify-content: space-evenly;}
+.jcc {justify-content: center;}
 .p20 {padding: 20px;}
+.p10 {padding: 10px;}
+.m2010 {margin: 20px 10px;}
+.mr20 {margin-right: 20px;}
+.w85 {width: 85%;}
+.fs2 {font-size: 2em;}
 
 #cabecera {
+    background-color: #f9ed69;
     
 }
 
 .logo {
-    flex-grow: 1;
+    
 }
 
-.busqueda {
-   flex-grow: 2;
+.bus {
+  border: 0px;
+  border-radius: 5px 0 0 5px;
+}
+
+.lup {
+    background-color: white;
+    padding: 10px;
+    
+    border-radius: 0 5px 5px 0;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.nav-control :hover .nav-bar {
+    display: block;
 }
