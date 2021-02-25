@@ -18,15 +18,20 @@ ul {
 .fg2 {flex-grow: 2;}
 .jcse {justify-content: space-evenly;}
 .jcc {justify-content: center;}
+.asc {align-self: center;}
 .p20 {padding: 20px;}
 .p10 {padding: 10px;}
+.m20 {margin: 20px;}
 .m2010 {margin: 20px 10px;}
 .mr20 {margin-right: 20px;}
+.mt10 {margin-top: 10px;}
 .w85 {width: 85%;}
+.fs1 {font-size: 1em;}
+.fs15 {font-size: 1.5em;}
 .fs2 {font-size: 2em;}
 
 #cabecera {
-    background-color: #f9ed69;
+    background-color: #e3d18a;
     
 }
 
@@ -37,12 +42,13 @@ ul {
 .bus {
   border: 0px;
   border-radius: 5px 0 0 5px;
+  outline: none;
+  
 }
 
 .lup {
     background-color: white;
     padding: 10px;
-    
     border-radius: 0 5px 5px 0;
 }
 

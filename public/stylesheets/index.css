@@ -13,3 +13,8 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
+
+#principal {
+  width: auto;
+  height: 500px;
+}

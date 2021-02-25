@@ -1,0 +1,39 @@
+
+
+#pie {
+    background-color: #e3d18a;
+}
+
+.pie-art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pie-item {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.pie-item .fas {
+    font-size: 2em;
+}
+
+.pie-item p {
+    margin-left: 20px;
+}
+
+.pie-nets .fab {
+    font-size: 2em;
+}
+
+.pie-nets {
+    display: inline;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 0.7em;
+}
