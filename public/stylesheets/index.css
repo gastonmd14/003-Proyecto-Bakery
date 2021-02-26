@@ -14,7 +14,28 @@ a {
   box-sizing: border-box;
 }
 
+h1 {
+  margin: 20px;
+}
+
+img {
+  width: 100%;
+}
+
 #principal {
-  width: auto;
-  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.baker {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.coffe {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
 }
