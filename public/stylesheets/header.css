@@ -5,10 +5,9 @@
     font-family: 'RocknRoll One', sans-serif;
 }
 
-ul {
+.unorder {
     list-style-type: none;
 }
-
 
 .df {display: flex;}
 .fww {flex-wrap: wrap;}
@@ -32,10 +31,6 @@ ul {
 
 #cabecera {
     background-color: #e3d18a;
-    
-}
-
-.logo {
     
 }
 
