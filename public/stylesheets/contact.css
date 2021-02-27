@@ -24,3 +24,14 @@
 .con-inp label {
     margin-bottom: 10px;
 }
+
+.con-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.bot {
+    padding: 5px 20px;
+}
