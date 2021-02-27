@@ -1,0 +1,23 @@
+#history {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+.his-art {
+    margin: 10px;
+}
+
+.image {
+    width: 100%;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.parragraph {
+    text-align: justify;
+    padding: 10px;
+}

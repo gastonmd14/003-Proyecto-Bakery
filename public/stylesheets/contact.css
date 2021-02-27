@@ -1,0 +1,26 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+    padding: 5%;
+    border: 1px solid lightgray;
+}
+
+.con-sec {
+    padding: 10px;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.con-inp {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+  
+.con-inp label {
+    margin-bottom: 10px;
+}

@@ -5,6 +5,11 @@
     font-family: 'RocknRoll One', sans-serif;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .unorder {
     list-style-type: none;
 }
@@ -26,12 +31,18 @@
 .mt10 {margin-top: 10px;}
 .w85 {width: 85%;}
 .fs1 {font-size: 1em;}
+.fs12{font-size: 1.2em;}
 .fs15 {font-size: 1.5em;}
 .fs2 {font-size: 2em;}
+.fwb {font-weight: bold;}
 
 #cabecera {
-    background-color: #e3d18a;
-    
+    background-color: #e3d18a;    
+}
+
+.img-back {
+    background-image: url('/../images/img-background.jpg');
+    background-size: cover;
 }
 
 .bus {
