@@ -1,3 +1,12 @@
+
+.df {display: flex;}
+.fdc {flex-direction: column;}
+.fdr {flex-direction: row;}
+.jcc {justify-content: center;}
+.taj {text-align: justify;}
+.m10 {margin: 10px 0;}
+.asc {align-self: center;}
+
 #products {
   margin: 20px;
 }
@@ -8,4 +17,26 @@
 
 .image {
   width: 100%;
+}
+
+.art {
+  border: 2px solid lightgray;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.can {margin-right: 20px;}
+
+.num {
+  border: 1px solid lightgray;
+  margin: 0 20px;
+  padding:10px 20px;
+}
+
+.boto{
+  margin: 10px;
+  padding: 10px;
+  background-image: url('/../images/texture/img-7.jpg');
+  background-size: cover;
 }

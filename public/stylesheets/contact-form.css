@@ -1,0 +1,46 @@
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10%;
+    padding: 5%;
+    border: 1px solid lightgray; */
+
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 15px 0;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.con-sec {
+    padding: 10px;
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+}
+
+.con-inp {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+  
+.con-inp label {
+    margin-bottom: 10px;
+}
+
+.con-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.bot {
+    /* padding: 5px 20px; */
+    margin: 10px;
+  padding: 10px 40px;
+  background-image: url('/../images/texture/img-7.jpg');
+  background-size: cover;
+}

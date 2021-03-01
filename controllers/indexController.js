@@ -15,7 +15,7 @@ const indexController = {
 
     message: (req, res, next) => {
 
-      res.render('contact-form', { style: 'contact.css' });
+      res.render('contact-form', { style: 'contact-form.css' });
 
     }
 
