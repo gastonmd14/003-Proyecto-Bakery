@@ -41,6 +41,10 @@ De este sitio tome el footer el cual es similar, luego continue inventando el si
 Me gustan los tonos en blanco y negros. Su login es grande abarca toda la pantalla y es claro, en las 
 
 1. http://www.panaderiasoldemayo.com.ar/
+2. https://malvonba.com.ar/
+3. https://www.lavicentelopez.com.ar/vl2/wp/
+4. http://www.dosescudos.net/
+5. https://lepi.com.ar/s
 
 
 

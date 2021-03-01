@@ -1,5 +1,7 @@
 #pie {
     background-color: #e3d18a;
+    background-image: url('/../images/background/img-6.jpg');
+    background-size: cover;
 }
 
 .pie-art {

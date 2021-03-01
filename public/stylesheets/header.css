@@ -30,18 +30,20 @@ a {
 .mr20 {margin-right: 20px;}
 .mt10 {margin-top: 10px;}
 .w85 {width: 85%;}
+.w100 {width: 100%;}
 .fs1 {font-size: 1em;}
 .fs12{font-size: 1.2em;}
 .fs15 {font-size: 1.5em;}
 .fs2 {font-size: 2em;}
 .fwb {font-weight: bold;}
+.cw {color: white;}
 
 #cabecera {
     background-color: #e3d18a;    
 }
 
 .img-back {
-    background-image: url('/../images/img-background.jpg');
+    background-image: url('/../images/background/img-15.jpg');
     background-size: cover;
 }
 

@@ -1,11 +1,12 @@
 #principal {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px
+  
 }
 
 .title {
-  margin: 20px;
+  margin: 0 20px;
 }
 
 .image {
@@ -15,17 +16,32 @@
 .baker {
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
+}
+
+.pastry {
+  display: flex;
+  flex-direction: column;
 }
 
 .coffe {
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
 }
 
-.pri-art {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
+.art {
+  border: 2px solid lightgray;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: 10px 10px 5px grey;
 }
+
+.pri-div {
+  display: none;
+  justify-content:center;  
+}
+
+
+.art :hover .pri-div {
+  display: flex;
+}
+
