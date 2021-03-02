@@ -1,11 +1,17 @@
 
 const productsController = {
 
-    list: (req, res, next) => {
+  list: (req, res, next) => {
 
-        res.render('products/products', { style: '/products/products.css' });
+    res.render('products/list', { style: '/products/list.css' });
 
-      }
+  },
+
+  detail: (req, res, next) => {
+
+    res.render('products/details', { style: '/products/details.css' });
+
+  }
 
 };
 

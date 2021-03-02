@@ -4,7 +4,9 @@
 .fdr {flex-direction: row;}
 .jcc {justify-content: center;}
 .taj {text-align: justify;}
-.m10 {margin: 10px 0;}
+.m10-0 {margin: 10px 0;}
+.m10{margin: 10px;}
+.mb10 {margin-bottom: 10px;}
 .asc {align-self: center;}
 
 #products {

@@ -7,30 +7,31 @@
   
   <%- include("../partials/header")  %> 
 
-    <main id="contact">
-      <section class="con-sec">
+  <main id="login">
+    <section class="log-sec">
 
-        <h1 class="title">Iniciar Sesion</h1>
+      <h1 class="title">Inicio de Session</h1>
 
-        <form id="contact-form" action="/">          
-          <div class="con-inp">
-            <label for="">Nombre de Usuario o Mail</label>
-            <input type="text">
-          </div>
-          <div class="con-inp">
-            <label for="">Contraseña</label>
-            <input type="password">
-          </div>
-          <div class="con-bot">
-            <button class="bot">Iniciar Session</button>
-            <button class="bot">Borrar</button>
-          </div>
-        </form>
+      <form id="login-form" action="/">          
+        <div class="log-inp">
+          <label for="">Nombre de Usuario o Correo</label>
+          <input type="text">
+        </div>
+        <div class="log-inp">
+          <label for="">Contraseña</label>
+          <input type="password">
+        </div>
+        
+        <div class="log-bot">
+          <button class="bot">Iniciar Session</button>
+          
+        </div>
+      </form>
 
-      </section>
+    </section>
 
-    </main>
-
+  </main>
+  
   <%- include("../partials/footer")  %> 
   
 </body>

@@ -7,33 +7,37 @@
   
   <%- include("../partials/header")  %> 
 
-    <main id="contact">
-      <section class="con-sec">
+  <main id="register">
+    <section class="reg-sec">
 
-        <h1 class="title">Registrarme</h1>
+      <h1 class="title">Registro</h1>
 
-        <form id="contact-form" action="/">          
-          <div class="con-inp">
-            <label for="">Nombre</label>
-            <input type="text">
-          </div>
-          <div class="con-inp">
-            <label for="">Apellido</label>
-            <input type="text">
-          </div>
-          <div class="con-inp">
-            <label for="">eMail</label>
-            <input type="email">
-          </div>
-          <div class="con-bot">
-            <button class="bot">Enviar</button>
-            <button class="bot">Borrar</button>
-          </div>
-        </form>
+      <form id="register-form" action="/">          
+        <div class="reg-inp">
+          <label for="">Nombre de Usuario</label>
+          <input type="text">
+        </div>
+        <div class="reg-inp">
+          <label for="">Email</label>
+          <input type="email">
+        </div>
+        <div class="reg-inp">
+          <label for="">Contraseña</label>
+          <input type="password">
+        </div>
+        <div class="reg-inp">
+          <label for="">Repetir Contraseña</label>
+          <input type="password">
+        </div>
+        
+        <div class="reg-bot">
+          <button class="bot">Registrarme</button>          
+        </div>
+      </form>
 
-      </section>
+    </section>
 
-    </main>
+  </main>
 
   <%- include("../partials/footer")  %> 
   
