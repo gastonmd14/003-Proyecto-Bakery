@@ -3,7 +3,13 @@ const productsController = {
 
   list: (req, res, next) => {
 
-    res.render('products/list', { style: '/products/list.css' });
+    res.render('products/products', { style: '/products/products.css' });
+
+  },
+
+  cart: (req, res, next) =>{
+
+    res.render('products/cart', { style: '/products/cart.css' });
 
   },
 

@@ -1,0 +1,83 @@
+#cart {
+    margin: 20px;
+}
+
+.cart-items {
+  box-shadow: 10px 10px 5px grey;
+  
+}
+
+.title {
+  margin: 0 20px;
+}
+
+.image {
+  width: 50%;
+}
+
+.items-a {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline; 
+  margin: 10px;
+  padding: 10px;   
+  border: 1px solid lightslategrey;
+  border-top: none;
+  border-left: none;
+}
+
+.ia {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.ib {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  padding: 10px;
+  
+}
+
+.ic {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.items-b {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.can {
+  margin-right: 20px;
+  align-self: center;
+}
+
+.quan {
+  border: 1px solid lightgray;
+  margin: 0 20px;
+  padding:10px 20px;
+}
+
+.items-c {
+  display: flex;
+  flex-direction: column;
+}
+
+.boto{
+  margin: 10px;
+  padding: 10px;
+  background-image: url('/../images/texture/img-7.jpg');
+  background-size: cover;
+}

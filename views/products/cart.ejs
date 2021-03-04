@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <%- include("../partials/head")  %> 
+
+<body>
+  
+  <%- include("../partials/header")  %> 
+
+  <main id="cart">
+    <section class="cart-items"> 
+      <div>
+        <div class="items-a">
+          <div class="ia">
+            <img class="image" src="/images/bakery/img-torta-1.jpg" alt="">
+            <h1 class="title">Torta N° 1</h1>
+          </div>            
+          <div class="ib">
+            <p class="can">Cantidad </p>
+            <i class="fas fa-minus-circle asc"></i>
+            <p class="quan">1</p>
+            <i class="fas fa-plus-circle asc"></i>
+          </div>
+          <div class="ic">
+            <p>SubTotal : </p>
+            <p class="quan">$750</p>
+          </div>
+        </div>
+      </div>
+      <div class="items-b">
+        <p>Total : </p>
+        <p class="quan">$750</p>
+      </div>
+      <div class="items-c">
+        <button class="boto">CONTINUAR COMPRA</button>
+        <BUtton class="boto">FINALIZAR COMPRA</BUtton>
+      </div>
+    </section>
+  </main>
+
+  <%- include("../partials/footer")  %> 
+  
+</body>
+</html>

@@ -1,0 +1,33 @@
+#products {
+    margin: 20px;
+}
+
+.title {
+  margin: 0 20px;
+}
+
+.image {
+  width: 100%;
+}
+
+.pastry {
+  display: flex;
+  flex-direction: column;
+}
+
+.art {
+  border: 2px solid lightgray;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.pri-div {
+  display: none;
+  justify-content:center;  
+}
+
+
+.art :hover .pri-div {
+  display: flex;
+}
