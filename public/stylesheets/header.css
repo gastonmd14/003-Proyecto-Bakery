@@ -23,6 +23,7 @@ a {
 .jcse {justify-content: space-evenly;}
 .jcc {justify-content: center;}
 .asc {align-self: center;}
+.aic {align-items: center;}
 .p20 {padding: 20px;}
 .p10 {padding: 10px;}
 .m20 {margin: 20px;}
@@ -66,4 +67,27 @@ a {
 
 .nav-control :hover .nav-bar {
     display: block;
+}
+
+@media (min-width: 768px) {
+
+    .w21 {width: 21%;}
+    .lb {justify-content: unset;}
+    .w100-1 {width: 100%;}
+    .ico-1 {display: none;} 
+    .nav-bar {display: block;}
+    .ud {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .jcsa {justify-content: space-around;}
+    .jcsb {justify-content: space-between;}
+    .ud .li-1 {
+        margin-top: unset;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        
+    }
+    .dn {display: none;}
 }
