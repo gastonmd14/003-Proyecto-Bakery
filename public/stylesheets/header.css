@@ -44,7 +44,7 @@ a {
 }
 
 .img-back {
-    background-image: url('/../images/background/img-15.jpg');
+    background-image: url('/../images/background/img-6.jpg');
     background-size: cover;
 }
 
@@ -69,9 +69,9 @@ a {
     display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 591px) {
 
-    .w21 {width: 21%;}
+    .w36 {width: 36%;}
     .lb {justify-content: unset;}
     .w100-1 {width: 100%;}
     .ico-1 {display: none;} 
@@ -83,6 +83,7 @@ a {
 
     .jcsa {justify-content: space-around;}
     .jcsb {justify-content: space-between;}
+    .jcse {justify-content: space-evenly;}
     .ud .li-1 {
         margin-top: unset;
         margin-bottom: 20px;
@@ -90,4 +91,11 @@ a {
         
     }
     .dn {display: none;}
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {
+    .w41 {width: 41%;}
+    
 }

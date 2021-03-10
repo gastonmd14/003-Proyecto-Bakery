@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: column;
   padding: 20px
-  
+}
+
+#principal h1 {
+  font-size: 1.5em;
 }
 
 .title {
@@ -16,19 +19,23 @@
 .baker {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .pastry {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .coffe {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .art {
+  display: flex;
   border: 2px solid lightgray;
   padding: 10px;
   margin: 15px 0;
@@ -45,3 +52,36 @@
   display: flex;
 }
 
+@media (min-width: 768px) {
+
+  .baker{
+    flex-direction: row;  
+  } 
+
+  .pastry{
+    flex-direction: row;    
+  } 
+
+  .coffe{
+    flex-direction: row;    
+  } 
+
+  .art{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    width: 40%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .art{
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    width: 19%;
+  }
+
+}
