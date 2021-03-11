@@ -42,3 +42,9 @@
   background-image: url('/../images/texture/img-7.jpg');
   background-size: cover;
 }
+
+@media (min-width: 591pxpx) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}

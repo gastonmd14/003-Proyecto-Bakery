@@ -69,9 +69,13 @@ a {
     display: block;
 }
 
+@media (min-width: 425px) {
+    .w16 {width: 16%;}
+}
+
 @media (min-width: 591px) {
 
-    .w36 {width: 36%;}
+    .w9 {width: 9%;}
     .lb {justify-content: unset;}
     .w100-1 {width: 100%;}
     .ico-1 {display: none;} 
@@ -96,6 +100,6 @@ a {
 @media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
-    .w41 {width: 41%;}
+    .w5 {width: 5%;}
     
 }
