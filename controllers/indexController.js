@@ -1,11 +1,17 @@
 
 const indexController = {
 
-    list: (req, res, next) => {
+    show: (req, res, next) => {
 
         res.render('index', { style: 'index.css' });
 
       },
+
+    search: (req, res, next) => {
+
+      
+
+    },
 
     about: (req, res, next) => {
 
